@@ -1,0 +1,17 @@
+\section{Marco teórico}
+
+La ley de Fourier, para una muestra de geometría rectangular, calcula la tasa a la que el calor transita por un material dada una diferencia de temperatura entre dos caras opuestas de la muestra
+
+\begin{equation}
+    \dd{Q}{t} = \frac{\kappa A \Delta T}{h}
+\end{equation}
+
+Juntando esta ecuación con la cantidad de calor que se requiere para fundir el hielo,  $\Delta Q = \Delta m L_{\text{fusión}}$, se obtiene una relación para la constante de proporcionalidad $\kappa$ en función de la geometría de la muestra, la tasa a la que se derrite el hielo, y la diferencia de temperatura aplicada,
+
+\begin{equation}
+\kappa = \rho_{\text{agua}}\dot V L_{\text {fusión}}\frac{h}{A}\frac{1}{\Delta T}
+\label{eq:kappa_exp}
+\end{equation}
+
+Donde $\dot V = \frac{\Delta V}{\Delta t} \,\si{\cubic\centi\meter\per\second}$, $L_{\text {fusión}} = 79.71\,\si{\calorie_{(4\celsius)}}\si{\per\gram}$; $h$ y $A$ son el grosor y el área efectiva a través de la cual fluye el calor, y $\Delta T = \SI{100}{\celsius}$ es la diferencia de temperatura que se impone.
+
